@@ -14,6 +14,11 @@
 		FF8DBEBF1BB4FF4200A78B92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8DBEBE1BB4FF4200A78B92 /* Images.xcassets */; };
 		FF8DBEC21BB4FF4200A78B92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8DBEC01BB4FF4200A78B92 /* LaunchScreen.xib */; };
 		FF8DBECE1BB4FF4200A78B92 /* MAPUSINGMAPKITTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8DBECD1BB4FF4200A78B92 /* MAPUSINGMAPKITTests.m */; };
+		FF8DBED81BB4FFBB00A78B92 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8DBED71BB4FFBB00A78B92 /* MapKit.framework */; };
+		FF8DBEDA1BB5043F00A78B92 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8DBED91BB5043F00A78B92 /* CoreLocation.framework */; };
+		FF8DBEDC1BB5044900A78B92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8DBEDB1BB5044900A78B92 /* UIKit.framework */; };
+		FF8DBEDE1BB5045400A78B92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8DBEDD1BB5045400A78B92 /* Foundation.framework */; };
+		FF8DBEE01BB5046100A78B92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8DBEDF1BB5046100A78B92 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,11 @@
 		FF8DBEC71BB4FF4200A78B92 /* MAPUSINGMAPKITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAPUSINGMAPKITTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8DBECC1BB4FF4200A78B92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF8DBECD1BB4FF4200A78B92 /* MAPUSINGMAPKITTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAPUSINGMAPKITTests.m; sourceTree = "<group>"; };
+		FF8DBED71BB4FFBB00A78B92 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FF8DBED91BB5043F00A78B92 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FF8DBEDB1BB5044900A78B92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF8DBEDD1BB5045400A78B92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF8DBEDF1BB5046100A78B92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF8DBEE01BB5046100A78B92 /* CoreGraphics.framework in Frameworks */,
+				FF8DBEDE1BB5045400A78B92 /* Foundation.framework in Frameworks */,
+				FF8DBEDC1BB5044900A78B92 /* UIKit.framework in Frameworks */,
+				FF8DBEDA1BB5043F00A78B92 /* CoreLocation.framework in Frameworks */,
+				FF8DBED81BB4FFBB00A78B92 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,11 @@
 		FF8DBEA51BB4FF4200A78B92 = {
 			isa = PBXGroup;
 			children = (
+				FF8DBEDF1BB5046100A78B92 /* CoreGraphics.framework */,
+				FF8DBEDD1BB5045400A78B92 /* Foundation.framework */,
+				FF8DBEDB1BB5044900A78B92 /* UIKit.framework */,
+				FF8DBED91BB5043F00A78B92 /* CoreLocation.framework */,
+				FF8DBED71BB4FFBB00A78B92 /* MapKit.framework */,
 				FF8DBEB01BB4FF4200A78B92 /* MAPUSINGMAPKIT */,
 				FF8DBECA1BB4FF4200A78B92 /* MAPUSINGMAPKITTests */,
 				FF8DBEAF1BB4FF4200A78B92 /* Products */,
